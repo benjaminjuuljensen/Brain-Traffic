@@ -12,18 +12,27 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( '', '' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( '', '' ), '' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+		<form style="border:1px solid #ccc">
+  <div class="container">
+    <h1>Join the Brain Traffic mailing list</h1>
+    <p>Sign up for email about upcoming events, new posts, and other delightful tidbits.</p>
+    <hr>
+
+    <label for="fname"><b>First Name</b></label>
+    <input type="text" placeholder="" name="fname" required>
+
+    <label for="lname"><b>Last Name</b></label>
+    <input type="text" placeholder="" name="lname" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="" name="" required>
+
+
+    <div class="clearfix">
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+</form>
 
 <?php wp_footer(); ?>
 
