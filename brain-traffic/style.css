@@ -967,6 +967,9 @@ textarea {
 	margin-right: auto;
 	margin-bottom: 1.5em;
 }
+.container {
+	margin-bottom: 200px;
+}
 .signupbtn {
 	border-radius: 3px;
 	color: white;
